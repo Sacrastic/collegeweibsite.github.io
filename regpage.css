@@ -1,0 +1,95 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: fit-content;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=number], input[type=number] {
+  width: fit-content;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=number]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+body {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height:100%;
+  width:100%;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  opacity: 0.9;
+}
+.formhead{
+  font-size: 30px;
+}
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f6f0f0;
+  width: fit-content;
+  text-align: center;
+  padding: 2px;
+}
+
+fieldset {
+    
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0px auto;
+    height:fit-content;
+    border-color: rgb(173, 165, 165);
+   background-color: rgb(195, 202, 207);
+    border: 2px groove (internal value);
+  }
+ .textsize b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  font-size: 20px;
+ }
