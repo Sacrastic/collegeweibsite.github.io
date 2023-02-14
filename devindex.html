@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dr.shyama Prashad University Ranchi</title>
+</head>
+<body background="1.jpeg">
+<link rel="stylesheet" type="text/css" href="stylesheetpage1.css">
+    <div class="header">
+        <div class="heading">
+           <img src="dspmu-logo.png" alt=""><font style="font-style: italic;">Dr.shyama Prashad University Morabadi Ranchi <img src="dspmu-logo.png" alt=""> 
+           </font> </div>
+        <br>
+        <div class="icon">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Department</a></li>
+                <li><a href="PAGE2.HTML">Notes</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="page1o.html">Student-login</a></li>
+                <li><a href="page1o.html">Signup</a></li>
+                <li><a href="#">about us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ca-it">
+      <marquee behavior="alternate" scrollamount="12"><h3 style="color:black;border: width 1.5px; border-style:solid; border-color:black;background-color:white;width:fit-content"><CENTER><font style="font-size: 20px;font-style: italic;">THIS SITE ONLY GIVES INFORMATION ABOUT CA & IT</font></CENTER></h3></marquee>
+    </div>
+
+    <!-- images slidshow -->
+
+    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="a (1).jpg" style="width:100%">
+      <div class="text">Faculty Teachers</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="a (2).jpg" style="width:100%">
+      <div class="text">Auditoriam Program</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="a (3).jpg" style="width:100%">
+      <div class="text">Achivements</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="a (4).jpg" style="width:100%">
+        <div class="text" >[VC] Prof.Tapan kumar shandilya</div>
+      </div>
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+        <!-- About our Honrable Professor -->
+
+        <div class="about">
+            <div class="images ramesh">
+                <b>Sri Ramesh Bais</b>
+                <br>
+                <i>Chancellor</i>
+                <p>Ramesh Bais is an Indian politician and currently the Governor of Jharkhand. Earlier , in the 16th Lok Sabha of India , he was a Member of Parliament from Raipur Lok Sabha seat of Chhattisgarh . In the 2014 elections , he participated on behalf of Bharatiya Janata Party from Raipur seat of Chhattisgarh . </p>  
+                            
+            </div>
+
+            <div class="images tapan">
+              
+                <b>Prof. (Dr.)Tapan kumar shandilya</b> <br><i>[Vice-Chancellor ]</i>
+                <p>Dr. Shyama Prasad Mukherjee University, Ranchi is a synthesis of a legacy of 92 years of hard work, dedication and incomparable team work in the area of academic excellence that incessantly worked together under the banner of Ranchi College, Ranchi.</p>
+                             
+            </div>
+
+            <div class="images dsw">
+                <b>Dr. S. M. Abbas</b>
+                <br>
+                <i>DSW</i>
+                <p>Dr. Shyama Prasad Mukherjee University is one of the premier Institutes of Higher Learning and Research</p>
+                            
+            </div>
+
+            <div class="images namita">
+                <b>Dr. (Mrs.) Namita Singh</b>
+                <br>
+                <i>Registrar</i>
+                <p>Education embedded with information and communication technology paves the robust way for creating a just and equitable society.</p>
+                            
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript code here -->
+
+    <script>
+  
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+                
+
+    </script>
+    
+</body>
+</html>
